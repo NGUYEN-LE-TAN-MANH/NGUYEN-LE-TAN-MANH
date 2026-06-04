@@ -1,16 +1,37 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**NGUYEN-LE-TAN-MANH/NGUYEN-LE-TAN-MANH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm **NGUYEN-LE-TAN-MANH**, a passionate developer and tech enthusiast.
 
-Here are some ideas to get you started:
+## 🔭 Current Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm currently working on various development initiatives and continuous learning projects.
+
+## 🌱 Currently Learning
+
+Always exploring new technologies and improving my skills in software development.
+
+## 👯 Collaboration
+
+I'm open to collaborating on interesting projects and innovative ideas.
+
+## 💬 Let's Connect
+
+Feel free to reach out if you have any questions or want to discuss development topics.
+
+## 📌 About Me
+
+- **GitHub Profile**: [NGUYEN-LE-TAN-MANH](https://github.com/NGUYEN-LE-TAN-MANH)
+- **Interests**: Software Development, Clean Code, Problem Solving
+- **Goal**: Building meaningful projects and contributing to the developer community
+
+---
+
+### Repository Overview
+
+This is my personal profile repository containing various projects, experiments, and documentation.
+
+**Let's build something awesome together!** 🚀
+
+---
+
+*Last updated: June 2026*
