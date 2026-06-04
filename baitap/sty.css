@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    min-height: 200px;
+    background-color:rgb(10, 107, 234) ;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+}
+.left-main{
+    flex:3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-main{
+    flex:7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin: 50px;
+    justify-content: space-around;
+    font-size:30px;
+    color: white;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(17, 65, 143);
+}
+.nav{
+    display:flex;
+   
+}
+.nav main{
+    flex:1;
+    min-height: 800px;
+    background-color:  rgb(17, 65, 143);
+}
+ .event{
+    display:flex;
+    flex-direction: column;
+ }
+ .event a{
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    justify-content: space-around;
+    font-size:20px;
+    color: white;
+ }
+ 
+.nav content{
+    flex:9;
+    min-height: 800px;
+}
+aside{
+    margin: 60px;
+    border-radius: 20px;
+    min-height: 200px;
+    background-color:  rgb(17, 65, 143);
+}
+content h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    margin: 150px;
+    display:flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+.new img{
+    border-radius: 30px;
+}
+.new h4{
+    text-align: center;
+    font-size: 20px;
+}
+.new h1{
+    color:rgb(31, 71, 250)
+}
+.new b{
+ text-align: center;   
+}
+footer{
+    background-color:rgb(10, 107, 234) ;
+    min-height: 150px;
+}
+.information{
+    display:flex
+}
+.information h3{
+    font-size: 30px;
+    margin-left: 250px;
+}
+button{
+    height: 50px;
+   border-radius: 10px;
+}
