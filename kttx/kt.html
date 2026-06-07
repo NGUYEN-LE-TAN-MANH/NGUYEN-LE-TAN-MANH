@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <header>
+     <div class="left-main">
+        <img src="./71a78590-4a73-4d98-9adc-68e4ff64bdc1.png" alt="logo" >
+        <div >
+            <h1>INFORMATION TECHNOLOGY</h1>
+            <h3>Kết nối-Sáng tạo-Đột phá tương lai</h3>
+        </div>
+     </div>
+     <div class="right-main">
+            <a href="#">Trang chủ</a>
+            <a href="#">Sự kiện</a>
+            <a href="#">Diễn đàng</a>
+            <a href="#">Lịch trình</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Liên hệ</a>
+     </div>
+    </header>
+    <div class="nav">
+        <main class="event">
+            <a href="#">Sự Kiện</a>
+             <a href="#">Diễn Đàng</a>
+              <a href="#">Giới thiệu</a>
+               <a href="#">Liên hệ</a>
+                <a href="#">Liên hệ</a>
+        </main>
+        <content>
+           <aside>
+            <h1>CHÀO MỪNG ĐẾN VỚI <br>NGÀY HỘI CNTT NĂM 2026</h1>
+            <h3>Sự kiện diễn ra thường niên dành cho sinh viên đam mê công nghệ nơi tụ hội các thiên tài lập trình.</h3>
+           </aside>
+           <h1>------CÁC HOẠT ĐỘNG NỔI BẬT------</h1>
+           <div class="photo">
+            <div class="new">
+                <img src="./Screenshot 2026-06-04 091509.png" alt="hackathon">
+                <h1>HACKATHON</h1>
+                <h4>Thử thách lập trình trong 24h liên tục</h4>
+                <hr><br>
+                <button type="button" onclick="xemChiTiet('HACKATHON', 100)">Chi tiết</button>
+            </div>
+            <div class="new">
+                <img src="./Screenshot 2026-06-04 091516.png" alt="ai challenge">
+                <h1>AI CHALLENGE</h1>
+                <h4>Ứng dụng trí tuệ nhân tạo để giải quyết các bài toán thông minh</h4>
+                <hr><br>
+                <button type="button" onclick="xemChiTiet('AI CHALLENGE', 80)">Chi tiết</button>
+            </div>
+            <div class="new">
+                <img src="./Screenshot 2026-06-04 091525.png" alt="robotics">
+                <h1>ROBOTICS</h1>
+                <h4>Thiết kế và lập trình robot tự động hóa hoàn thành các nhiệm vụ</h4>
+                <hr><br>
+                <button type="button" onclick="xemChiTiet('ROBOTICS', 60)">Chi tiết</button>
+            </div>
+        </div>
+           <div id="hoatDongDaChon" style="display:none; background:rgb(17,65,143); border-radius:15px; text-align:center;">
+               <h2 id="tenHoatDong" style="color:white; font-size:28px; margin-bottom:10px;"></h2>
+               <h3 id="diemThuong" style="color:yellow; font-size:22px;"></h3>
+               <button type="button" onclick="document.getElementById('hoatDongDaChon').style.display='none'" style="margin-top:20px; background:white; color:rgb(17,65,143); font-weight:bold; cursor:pointer;">Đóng</button>
+           </div>
+
+        </content>
+    </div>
+    <footer>
+        <div class="information">
+            <div>
+                <h3>MÃ SINH VIÊN: </h3>
+                <h3>251CTT017</h3>
+            </div>
+            <div>
+                <h3>HỌ VÀ TÊN:</h3>
+                <h3>NGUYỄN LÊ TẤN MẠNH</h3>
+            </div>
+            <div>
+                <h3>Copyright ⓒ TRƯỜNG ĐẠI HỌC PHÚ YÊN </h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="sript.js"></script>
+</body>
+</html>
