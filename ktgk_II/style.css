@@ -1,0 +1,269 @@
+
+    * { 
+        margin: 0; padding: 0; box-sizing: border-box; 
+    }
+    body {
+         font-family: Arial, sans-serif; color: #333;
+         }
+    a {
+         text-decoration: none; color: inherit;
+         }
+
+    
+    header { 
+        background: #1e4d3b; 
+    }
+    nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+         color: #fff; font-size: 1.3rem; font-weight: bold; 
+        }
+    .logo span { 
+        color: #c9a84c; 
+    }
+    nav ul { 
+        list-style: none; display: flex; gap: 2rem;
+     }
+    nav ul a {
+         color: #fff; font-size: 0.9rem;
+         }
+
+    .hero {
+      background: #1e4d3b;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+         font-size: 2rem; margin-bottom: 10px; 
+        }
+    .hero h1 span {
+         color: #c9a84c; 
+        }
+    .hero p { 
+        color: #ccc; margin-bottom: 20px; 
+    }
+    .hero a {
+      background: #c9a84c;
+      color: #1e4d3b;
+      padding: 10px 24px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    
+    section {
+         padding: 50px 20px; 
+        }
+    .wrap { 
+        max-width: 1100px; margin: 0 auto; 
+    }
+    h2 { 
+        font-size: 1.5rem; color: #1e4d3b; margin-bottom: 8px;
+     }
+    .line { 
+        width: 40px; height: 3px; background: #c9a84c; margin-bottom: 24px;
+     }
+
+   
+    #gioi-thieu {
+         background: #fff; 
+        }
+    .about {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
+    }
+    .about-img {
+      flex: 0 0 280px;
+      height: 150px;
+      background: #1e4d3b;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+    }
+    .about-text p { 
+        color: #666; line-height: 1.7; margin-bottom: 10px;
+     }
+    .stats { 
+        display: flex; gap: 2rem; margin-top: 16px; 
+    }
+    .stats div strong { 
+        display: block; font-size: 1.6rem; color: #1e4d3b;
+     }
+    .stats div span {
+         font-size: 0.8rem; color: #999;
+         }
+
+  
+    #san-pham { 
+        background: #f5f0eb; 
+    }
+    .books {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2rem;
+    }
+    article.book {
+         background: #fff; border-radius: 6px; overflow: hidden; 
+        }
+    .book-cover {
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      background: #03dff7;
+    }
+    
+    .book-info { 
+        padding: 12px; 
+    }
+    .book-info small { 
+        color: #c9a84c; font-size: 0.75rem; font-weight: bold;
+     }
+    .book-info h3 { 
+        font-size: 0.95rem; margin: 4px 0;
+     }
+     button{
+        margin-top: 8px;
+        padding: 6px 12px;
+        background: #33936e;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        cursor: pointer;
+     }
+     img{
+       
+        height: 150px;
+        width: 100%;
+        
+     }
+    
+    #tin-tuc {
+         background: #fff;
+         }
+    .news {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 1.2rem;
+    }
+    article.post { 
+        background: #f5f0eb; border-radius: 6px; overflow: hidden;
+     }
+    .post-img {
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+    .ni1 {
+         background: #1e4d3b; 
+        }
+    .ni2 { 
+        background: #c9a84c;
+     }
+    .ni3 { 
+        background: #7b3f00; 
+    }
+    article.post:first-child .post-img {
+         height: 190px;
+         }
+    .post-body {
+         padding: 12px;
+         }
+    .post-body small { 
+        color: #999; font-size: 0.78rem; 
+    }
+    .post-body h3 {
+         font-size: 0.95rem; margin: 6px 0; line-height: 1.4;
+         }
+    .post-body p { 
+        font-size: 0.82rem; color: #666;
+     }
+
+   
+    #doi-ngu { 
+        background: #f5f0eb; 
+    }
+    .team { 
+        display: flex; gap: 1.5rem;
+     }
+    .member {
+      flex: 1;
+      background: #fff;
+      border-radius: 6px;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      border: 3px solid #c9a84c;
+      margin: 0 auto 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+    .av1 {
+         background: #1e4d3b;
+        }
+    .av2 { 
+        background: #c9a84c;
+     }
+    .av3 {
+         background: #7b3f00;
+         }
+    .av4 { 
+        background: #2c5f8a; 
+    }
+    .member h3 {
+         font-size: 0.95rem; 
+        }
+    .member small {
+         color: #c9a84c; font-size: 0.78rem; font-weight: bold;
+         }
+    .member p {
+         font-size: 0.82rem; color: #666; margin-top: 6px; 
+        }
+
+  
+    footer {
+         background: #222; color: #aaa; padding: 40px 20px 20px;
+         }
+    .footer-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #444;
+    }
+    .footer-wrap h4 { 
+        color: #fff; margin-bottom: 12px; 
+    }
+    .footer-wrap p, .footer-wrap li { 
+        font-size: 0.88rem; margin-bottom: 6px;
+     }
+    .footer-wrap ul {
+         list-style: none; 
+        }
+    .copy {
+         max-width: 1100px; margin: 16px auto 0; font-size: 0.8rem; text-align: center; opacity: 0.5; 
+        }
+  
