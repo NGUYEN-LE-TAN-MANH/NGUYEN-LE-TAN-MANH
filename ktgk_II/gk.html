@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nhà Sách BookHaven</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Book<span>Haven</span> 📖</div>
+    <ul>
+      <li><a href="#gioi-thieu">Giới thiệu</a></li>
+      <li><a href="#san-pham">Sách</a></li>
+      <li><a href="#tin-tuc">Tin tức</a></li>
+      <li><a href="#doi-ngu">Đội ngũ</a></li>
+      <li><a href="#footer">Liên hệ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Mỗi cuốn sách là một <span>cuộc phiêu lưu</span></h1>
+  <p>Hơn 50.000 đầu sách – văn học, khoa học, kỹ năng sống.</p>
+  <a href="#">Khám phá ngay</a>
+</section>
+
+<section id="gioi-thieu">
+  <div class="wrap">
+    <h2>Về BookHaven</h2>
+    <div class="about">
+      <div class="about-img"> <img src="./Screenshot 2026-06-09 140444.png" alt="BookHaven"> </div>
+      <div class="about-text">
+        <p>BookHaven ra đời năm 2009 với sứ mệnh đưa những cuốn sách hay nhất đến tay người đọc Việt Nam.</p>
+        <p>Không gian ấm cúng, đội ngũ am hiểu văn học, hơn 50.000 đầu sách đa dạng.</p>
+        <div class="stats">
+          <div><strong>50K+</strong><span>Đầu sách</span></div>
+          <div><strong>200K+</strong><span>Khách hàng</span></div>
+          <div><strong>12</strong><span>Chi nhánh</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="san-pham">
+  <div class="wrap">
+    <h2>Sách nổi bật</h2>
+    <div class="books">
+      <article class="book">
+        <div class="book-cover bg1"><img src="./Screenshot 2026-06-09 133037.png" alt="Đắc Nhân Tâm"></div>
+        <div class="book-info">
+          <small>Văn học</small>
+          <h3>Đắc Nhân Tâm</h3>
+          <button class="btn-detail" onclick="showDetail('Đắc Nhân Tâm', 'Dale Carnegie', '89.000đ')">Chi tiết</button>
+        </div>
+      </article>
+      <article class="book">
+        <div class="book-cover bg2"><img src="./Screenshot 2026-06-09 133121.png" alt="Sapiens"></div>
+        <div class="book-info">
+          <small>Khoa học</small>
+          <h3>Sapiens</h3>
+          <button class="btn-detail" onclick="showDetail('Sapiens', 'Yuval Noah Harari', '175.000đ')">Chi tiết</button>
+        </div>
+      </article>
+      <article class="book">
+        <div class="book-cover bg3"><img src="./Screenshot 2026-06-09 133222.png" alt="Atomic Habits"></div>
+        <div class="book-info">
+          <small>Kỹ năng</small>
+          <h3>Atomic Habits</h3>
+          <button class="btn-detail" onclick="showDetail('Atomic Habits', 'James Clear', '120.000đ')">Chi tiết</button>
+        </div>
+      </article>
+      <article class="book">
+        <div class="book-cover bg4"><img src="./Screenshot 2026-06-09 133158.png" alt="Nghĩ Giàu Làm Giàu"></div>
+        <div class="book-info">
+          <small>Tâm lý học</small>
+          <h3>Nghĩ Giàu Làm Giàu</h3>
+          <button class="btn-detail" onclick="showDetail('Nghĩ Giàu Làm Giàu', 'Napoleon Hill', '99.000đ')">Chi tiết</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="tin-tuc">
+  <div class="wrap">
+    <h2>Tin tức & Sự kiện</h2>
+    <div class="news">
+      <article class="post">
+        <div class="post-img ni1">📖</div>
+        <div class="post-body">
+          <small>01/06/2026</small>
+          <h3>Hội sách mùa hè 2026 – Giảm đến 50%</h3>
+          <p>BookHaven khai mạc hội sách lớn nhất năm với hơn 10.000 đầu sách được giảm giá.</p>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-img ni2">✍️</div>
+        <div class="post-body">
+          <small>25/05/2026</small>
+          <h3>Giao lưu tác giả Nguyễn Nhật Ánh</h3>
+          <p>Buổi ký tặng tại chi nhánh trung tâm.</p>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-img ni3">🎓</div>
+        <div class="post-body">
+          <small>18/05/2026</small>
+          <h3>CLB Đọc sách: Triết học phương Đông</h3>
+          <p>Câu lạc bộ hàng tháng với chủ đề mới.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="doi-ngu">
+  <div class="wrap">
+    <h2>Đội ngũ</h2>
+    <div class="team">
+      <div class="member">
+        <div class="avatar av1">👩</div>
+        <h3>Nguyễn Văn A</h3>
+        <small>Giám đốc</small>
+        <p>15 năm kinh nghiệm, người sáng lập BookHaven.</p>
+      </div>
+      <div class="member">
+        <div class="avatar av2">👨</div>
+        <h3>Lê Văn B</h3>
+        <small>Quản lý kho sách</small>
+        <p>Am hiểu sâu rộng về văn học trong và ngoài nước.</p>
+      </div>
+      <div class="member">
+        <div class="avatar av3">👩</div>
+        <h3>Nguyễn Văn C</h3>
+        <small>Tư vấn sách</small>
+        <p>Đọc hơn 300 cuốn sách mỗi năm.</p>
+      </div>
+      <div class="member">
+        <div class="avatar av4">👨</div>
+        <h3>Trần D</h3>
+        <small>Phụ trách sự kiện</small>
+        <p>Tổ chức hơn 200 buổi hội sách.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="footer-wrap">
+    <div>
+      <h4>📖 BookHaven</h4>
+      <p>Nơi tri thức gặp gỡ đam mê.</p>
+      <br>
+      <p>📍 xxx Nguyễn Tất Thành, Liên Trì 1, Phường Bình Kiến ,Tỉnh Đắk Lắk</p>
+      <p>✉️ hello@bookhaven.vn</p>
+      <p>📞 xxxx xxx 342</p>
+    </div>
+    <div>
+      <h4>Danh mục</h4>
+      <ul>
+        <li>Văn học trong nước</li>
+        <li>Văn học nước ngoài</li>
+        <li>Kỹ năng sống</li>
+        <li>Sách thiếu nhi</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Dịch vụ</h4>
+      <ul>
+        <li>CLB Đọc sách</li>
+        <li>Giao sách tận nhà</li>
+        <li>Thẻ thành viên</li>
+        <li>Hội sách định kỳ</li>
+      </ul>
+    </div>
+  </div>
+  <p class="copy">© 2026 BookHaven. Bảo lưu mọi quyền.</p>
+</footer>
+<div id="book-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+  <div style="background:#fff; border-radius:8px; padding:32px; min-width:300px; text-align:center; position:relative;">
+    <button onclick="closeModal()" style="position:absolute; top:10px; right:14px; background:none; color:#333; font-size:1.2rem; border:none; cursor:pointer;">✕</button>
+    <h3 id="modal-title" style="color:#1e4d3b; margin-bottom:8px;"></h3>
+    <p id="modal-author" style="color:#999; margin-bottom:8px;"></p>
+    <p id="modal-price" style="color:#c9a84c; font-size:1.2rem; font-weight:bold;"></p>
+    <button>Đặt ngay</button>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
