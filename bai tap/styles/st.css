@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+.head{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #171313;
+    gap: 20px;
+}
+
+.big-box {
+    display: flex;
+    padding: 20px;
+    
+}
+article {
+    flex: 1;
+    margin-right: 20px;
+    height: 1500px;
+}
+content{
+    flex: 6;
+    
+    height: 1500px;
+}
+footer {
+    height: 50px;
+   border: 1px solid #171313;
+    text-align: center;
+    padding: 10px 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul {
+    padding: 10px;
+    border: 1px solid #171313;
+    margin-bottom: 10px;
+    height: 1300px;
+}
+button {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #171313;
+    color:rgb(190, 25, 25);
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+article ul li {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    
+}
+content{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.information{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    height: 200px;
+}
+.list{
+    border: 1px solid #171313;  
+    height: 200px;
+}
+.info-box{
+      border: 1px solid #171313;
+      border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolbar{
+        display:flex;
+        gap:10px;
+        align-items:center;
+        padding:20px;
+    }
+
+    
+    .search-box{
+        position:relative;
+        margin-top:50px;
+    }
+
+    .search-box input{
+        width:250px;
+        height:40px;
+        padding:0 40px 0 15px;
+        border:1px solid #ddd;
+        border-radius:6px;
+        outline:none;
+    }
+
+    .search-box i{
+       margin-top: 30px;
+        position:absolute;
+        right:15px;
+        transform:translateY(-50%);
+        color:#888;
+    }
+
+   
+    .filter-btn{
+        width:70px;
+        height:40px;
+        padding:0 16px;
+        border:1px solid #ddd;
+        background:#fff;
+        border-radius:6px;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        gap:8px;
+        color:#555;
+    }
+
+    
+    .add-btn{
+        width:120px;
+        height:40px;
+        padding:0 18px;
+        border:none;
+        background:#2563eb;
+        color:white;
+        border-radius:6px;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        gap:8px;
+        font-weight:500;
+    }
+
+    .add-btn:hover{
+        background:#1d4ed8;
+    }
+    .classroom{
+        display:flex;
+        gap:50px;
+    }
+    
